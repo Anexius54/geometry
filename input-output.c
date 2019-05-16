@@ -20,7 +20,7 @@ void getDataFromFile(Circles circleData[])
         exit(1);
     }
     for (size_t l = 0; l < max_figures_count2; l++) {
-        circleData[l].a = 0;
+        circleData[l].exist = 0;
     }
     while (1) {
         fgets(tempArray, 49, fp);
