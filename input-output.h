@@ -3,12 +3,12 @@
 
 #include <stdlib.h>
 typedef struct {
-  double Ox, Oy, radius;
-  size_t a;
+    double Ox, Oy, radius;
+    size_t exist;
 } Circles;
 
-void getDataFromFile(Circles *circleData);
+void getDataFromFile(Circles* circleData);
 
-void printCircle(Circles *circleData);
+void printCircle(Circles* circleData);
 
 #endif
