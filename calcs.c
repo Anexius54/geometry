@@ -1,6 +1,7 @@
 #include "input-output.h"
 #include <stdio.h>
 
+const float pi = 3.14;
 float perimeter(float radius)
 {
     float p;
