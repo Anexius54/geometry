@@ -1,4 +1,5 @@
 #include "input-output.h"
+#include "calcs.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -86,5 +87,10 @@ void printCircle(Circles circleData[])
         printf("Circle #%ld :", i + 1);
         printf("(%.2f , %.2f);", circleData[i].Ox, circleData[i].Oy);
         printf(" radius: %.2f\n", circleData[i].radius);
+        float p, s;
+        p = perimeter(circleData[i].radius);
+        s = square(circleData[i].radius);
+        printf("Perimeter: %.2f, square: %.2f\n", p, s);
+        printf("***********************\n");
     }
 }

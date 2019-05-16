@@ -1,3 +1,4 @@
+#include "calcs.h"
 #include "input-output.h"
 #include <stdio.h>
 #include <stdlib.h>
@@ -5,11 +6,12 @@
 
 const size_t max_figures_count = 100;
 
-int main() {
-  Circles circleData[max_figures_count];
+int main()
+{
+    Circles circleData[max_figures_count];
 
-  getDataFromFile(circleData);
-  printCircle(circleData);
+    getDataFromFile(circleData);
+    printCircle(circleData);
 
-  return 0;
+    return 0;
 }
