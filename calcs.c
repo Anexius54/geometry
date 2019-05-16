@@ -1,8 +1,6 @@
 #include "input-output.h"
 #include <stdio.h>
 
-const float pi = 3.14;
-
 float perimeter(float radius)
 {
     float p;
@@ -13,5 +11,6 @@ float perimeter(float radius)
 float square(float radius)
 {
     float s;
-    s = pi * radius * radius return s;
+    s = pi * radius * radius;
+    return s;
 }
